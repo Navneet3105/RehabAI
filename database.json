@@ -1,0 +1,851 @@
+{
+    "therapists": {
+        "therapist1": {
+            "password": "therapist"
+        },
+        "therapist2": {
+            "password": "therapist"
+        }
+    },
+    "patients": {
+        "patient1": {
+            "password": "patient",
+            "assigned": {
+                "squat": 10,
+                "pushup": 10,
+                "curl": 10,
+                "raise": 10
+            },
+            "completed": {
+                "squat": 0,
+                "pushup": 20,
+                "curl": 90,
+                "raise": 110,
+                "kumalala": 13,
+                "shabalaba": 5,
+                "kambu": 10,
+                "flex": 20,
+                "left": 10
+            },
+            "custom_optimal": {
+                "squat": null,
+                "pushup": null,
+                "curl": null,
+                "raise": null
+            },
+            "angle_stats": {
+                "raise": [
+                    {
+                        "timestamp": "2025-11-14T21:11:30.504192",
+                        "reps": 20,
+                        "rep_averages": [
+                            23.56,
+                            53.39,
+                            50.08,
+                            51.35,
+                            47.5,
+                            40.79,
+                            40.33,
+                            50.82,
+                            43.1,
+                            52.49,
+                            43.36,
+                            46.08,
+                            46.79,
+                            45.35,
+                            40.98,
+                            41.38,
+                            47.81,
+                            43.3,
+                            43.8,
+                            47.53,
+                            82.19
+                        ],
+                        "overall_avg": 42.36,
+                        "opt_range": [
+                            60,
+                            120
+                        ],
+                        "deviation_percent": 29.4
+                    },
+                    {
+                        "timestamp": "2025-11-14T23:36:44.346336",
+                        "reps": 10,
+                        "rep_averages": [
+                            30.69,
+                            17.75,
+                            51.52,
+                            51.61,
+                            28.7,
+                            54.45,
+                            55.39,
+                            51.94,
+                            54.67,
+                            54.13,
+                            77.59
+                        ],
+                        "overall_avg": 37.73,
+                        "angle_min": 0.71,
+                        "angle_max": 94.28,
+                        "range_avg_low": 15.28,
+                        "range_avg_high": 73.34,
+                        "rep_min": 17.75,
+                        "rep_max": 77.59,
+                        "rep_range": 59.84,
+                        "opt_range": [
+                            60,
+                            120
+                        ],
+                        "deviation_percent": 42.81
+                    },
+                    {
+                        "timestamp": "2025-11-15T04:28:19.848251",
+                        "reps": 10,
+                        "rep_averages": [
+                            30.36,
+                            45.46,
+                            77.44,
+                            53.97,
+                            33.0,
+                            92.67,
+                            68.78,
+                            94.12,
+                            89.46,
+                            81.78,
+                            91.44
+                        ],
+                        "overall_avg": 61.79,
+                        "angle_min": 1.01,
+                        "angle_max": 179.56,
+                        "range_avg_low": 13.91,
+                        "range_avg_high": 133.16,
+                        "rep_min": 30.36,
+                        "rep_max": 94.12,
+                        "rep_range": 63.76,
+                        "opt_range": [
+                            60,
+                            120
+                        ],
+                        "deviation_percent": 92.58,
+                        "assigned_reps_snapshot": null,
+                        "assigned_sets_snapshot": null,
+                        "exercise_default_sets_snapshot": null,
+                        "sets_completed_snapshot": 0
+                    },
+                    {
+                        "timestamp": "2025-11-15T04:30:40.777824",
+                        "reps": 10,
+                        "rep_averages": [
+                            26.02,
+                            55.52,
+                            95.8,
+                            83.48,
+                            80.31,
+                            77.0,
+                            83.46,
+                            86.69,
+                            78.79,
+                            76.44,
+                            99.85
+                        ],
+                        "overall_avg": 73.39,
+                        "angle_min": 8.98,
+                        "angle_max": 173.08,
+                        "range_avg_low": 17.41,
+                        "range_avg_high": 140.8,
+                        "rep_min": 26.02,
+                        "rep_max": 99.85,
+                        "rep_range": 73.83,
+                        "opt_range": [
+                            15,
+                            95
+                        ],
+                        "deviation_percent": 12.35,
+                        "assigned_reps_snapshot": null,
+                        "assigned_sets_snapshot": null,
+                        "exercise_default_sets_snapshot": null,
+                        "sets_completed_snapshot": 0
+                    }
+                ],
+                "curl": [
+                    {
+                        "timestamp": "2025-11-14T22:58:11.486558",
+                        "reps": 20,
+                        "rep_averages": [
+                            165.33,
+                            99.13,
+                            103.4,
+                            96.1,
+                            92.05,
+                            85.09,
+                            92.0,
+                            94.28,
+                            95.09,
+                            105.66,
+                            89.84,
+                            93.1,
+                            88.71,
+                            91.31,
+                            88.95,
+                            89.91,
+                            94.66,
+                            97.66,
+                            96.77,
+                            93.16,
+                            39.78
+                        ],
+                        "overall_avg": 102.07,
+                        "angle_min": 2.99,
+                        "angle_max": 179.99,
+                        "range_avg_low": 26.59,
+                        "range_avg_high": 171.12,
+                        "rep_min": 39.78,
+                        "rep_max": 165.33,
+                        "rep_range": 125.55,
+                        "opt_range": [
+                            20,
+                            170
+                        ],
+                        "deviation_percent": 83.7
+                    },
+                    {
+                        "timestamp": "2025-11-14T23:01:14.972372",
+                        "reps": 20,
+                        "rep_averages": [
+                            162.91,
+                            104.69,
+                            100.49,
+                            99.84,
+                            99.37,
+                            95.62,
+                            92.5,
+                            96.77,
+                            92.71,
+                            95.76,
+                            88.33,
+                            87.61,
+                            93.89,
+                            92.14,
+                            89.68,
+                            88.64,
+                            99.36,
+                            87.57,
+                            103.71,
+                            97.65,
+                            33.03
+                        ],
+                        "overall_avg": 99.93,
+                        "angle_min": 14.77,
+                        "angle_max": 179.99,
+                        "range_avg_low": 22.78,
+                        "range_avg_high": 172.7,
+                        "rep_min": 33.03,
+                        "rep_max": 162.91,
+                        "rep_range": 129.88,
+                        "opt_range": [
+                            20,
+                            170
+                        ],
+                        "deviation_percent": 6.46
+                    }
+                ],
+                "kumalala": [
+                    {
+                        "timestamp": "2025-11-15T03:38:45.455191",
+                        "reps": 3,
+                        "rep_averages": [
+                            106.26,
+                            57.87,
+                            90.54,
+                            5.72
+                        ],
+                        "overall_avg": 82.92,
+                        "angle_min": 3.17,
+                        "angle_max": 179.86,
+                        "range_avg_low": 18.2,
+                        "range_avg_high": 167.44,
+                        "rep_min": 5.72,
+                        "rep_max": 106.26,
+                        "rep_range": 100.54,
+                        "opt_range": [
+                            null,
+                            null
+                        ],
+                        "deviation_percent": 27.58
+                    },
+                    {
+                        "timestamp": "2025-11-15T03:41:05.222746",
+                        "reps": 10,
+                        "rep_averages": [
+                            33.55,
+                            66.55,
+                            47.77,
+                            51.75,
+                            58.02,
+                            80.71,
+                            81.87,
+                            78.86,
+                            78.91,
+                            80.31,
+                            5.44
+                        ],
+                        "overall_avg": 51.67,
+                        "angle_min": 0.12,
+                        "angle_max": 179.96,
+                        "range_avg_low": 11.06,
+                        "range_avg_high": 123.51,
+                        "rep_min": 5.44,
+                        "rep_max": 81.87,
+                        "rep_range": 76.43,
+                        "opt_range": [
+                            null,
+                            null
+                        ],
+                        "deviation_percent": 16.59
+                    }
+                ],
+                "shabalaba": [
+                    {
+                        "timestamp": "2025-11-15T04:01:18.908849",
+                        "reps": 5,
+                        "rep_averages": [
+                            90.58,
+                            102.22,
+                            118.13,
+                            97.11,
+                            100.58,
+                            63.37
+                        ],
+                        "overall_avg": 106.26,
+                        "angle_min": 4.3,
+                        "angle_max": 179.97,
+                        "range_avg_low": 50.13,
+                        "range_avg_high": 168.6,
+                        "rep_min": 63.37,
+                        "rep_max": 118.13,
+                        "rep_range": 54.76,
+                        "opt_range": [
+                            null,
+                            null
+                        ],
+                        "deviation_percent": 5.33,
+                        "assigned_reps": null,
+                        "assigned_sets": null,
+                        "sets_completed": 1
+                    }
+                ],
+                "kambu": [
+                    {
+                        "timestamp": "2025-11-15T04:23:23.834134",
+                        "reps": 10,
+                        "rep_averages": [
+                            142.86,
+                            153.3,
+                            149.54,
+                            112.57,
+                            118.21,
+                            144.67,
+                            146.29,
+                            155.16,
+                            132.96,
+                            136.57,
+                            27.75
+                        ],
+                        "overall_avg": 141.12,
+                        "angle_min": 1.08,
+                        "angle_max": 179.99,
+                        "range_avg_low": 80.07,
+                        "range_avg_high": 175.77,
+                        "rep_min": 27.75,
+                        "rep_max": 155.16,
+                        "rep_range": 127.41,
+                        "opt_range": [
+                            90.0,
+                            180.0
+                        ],
+                        "deviation_percent": 41.56,
+                        "assigned_reps_snapshot": null,
+                        "assigned_sets_snapshot": null,
+                        "exercise_default_sets_snapshot": 5,
+                        "sets_completed_snapshot": 1
+                    }
+                ],
+                "flex": [
+                    {
+                        "timestamp": "2025-11-15T04:26:35.924028",
+                        "reps": 10,
+                        "rep_averages": [
+                            144.14,
+                            120.39,
+                            109.34,
+                            103.32,
+                            111.02,
+                            115.49,
+                            93.29,
+                            109.71,
+                            109.36,
+                            109.52,
+                            45.14
+                        ],
+                        "overall_avg": 115.43,
+                        "angle_min": 33.75,
+                        "angle_max": 179.12,
+                        "range_avg_low": 50.4,
+                        "range_avg_high": 167.06,
+                        "rep_min": 45.14,
+                        "rep_max": 144.14,
+                        "rep_range": 99.0,
+                        "opt_range": [
+                            30.0,
+                            160.0
+                        ],
+                        "deviation_percent": 5.32,
+                        "assigned_reps_snapshot": null,
+                        "assigned_sets_snapshot": null,
+                        "exercise_default_sets_snapshot": 10,
+                        "sets_completed_snapshot": 1
+                    },
+                    {
+                        "timestamp": "2025-11-15T04:27:34.093093",
+                        "reps": 10,
+                        "rep_averages": [
+                            139.7,
+                            98.13,
+                            100.46,
+                            91.63,
+                            109.0,
+                            81.89,
+                            98.04,
+                            93.87,
+                            100.53,
+                            105.78,
+                            41.09
+                        ],
+                        "overall_avg": 100.71,
+                        "angle_min": 28.01,
+                        "angle_max": 179.96,
+                        "range_avg_low": 49.58,
+                        "range_avg_high": 157.9,
+                        "rep_min": 41.09,
+                        "rep_max": 139.7,
+                        "rep_range": 98.61,
+                        "opt_range": [
+                            30.0,
+                            160.0
+                        ],
+                        "deviation_percent": 8.0,
+                        "assigned_reps_snapshot": null,
+                        "assigned_sets_snapshot": null,
+                        "exercise_default_sets_snapshot": 10,
+                        "sets_completed_snapshot": 2
+                    }
+                ],
+                "left": [
+                    {
+                        "timestamp": "2025-11-15T05:01:13.668156",
+                        "reps": 10,
+                        "rep_averages": [
+                            156.27,
+                            130.21,
+                            157.85,
+                            107.61,
+                            95.36,
+                            83.16,
+                            100.53,
+                            128.26,
+                            129.34,
+                            94.03,
+                            6.1
+                        ],
+                        "overall_avg": 127.18,
+                        "angle_min": 0.5,
+                        "angle_max": 180.0,
+                        "range_avg_low": 47.39,
+                        "range_avg_high": 173.47,
+                        "rep_min": 6.1,
+                        "rep_max": 157.85,
+                        "rep_range": 151.75,
+                        "opt_range": [
+                            50.0,
+                            140.0
+                        ],
+                        "deviation_percent": 68.61,
+                        "assigned_reps_snapshot": null,
+                        "assigned_sets_snapshot": null,
+                        "exercise_default_sets_snapshot": 1,
+                        "sets_completed_snapshot": 1
+                    }
+                ]
+            },
+            "messages": {
+                "from_therapist": [
+                    {
+                        "timestamp": "2025-11-14T23:03:42.091005",
+                        "text": "hi"
+                    }
+                ],
+                "from_patient": [
+                    {
+                        "timestamp": "2025-11-14T23:01:55.396921",
+                        "text": "hello"
+                    },
+                    {
+                        "timestamp": "2025-11-15T04:23:52.299465",
+                        "text": "heyy"
+                    }
+                ]
+            },
+            "assigned_sets": {},
+            "sets_completed": {
+                "shabalaba": 1,
+                "kambu": 1,
+                "flex": 2,
+                "left": 1
+            }
+        },
+        "patient2": {
+            "password": "patient",
+            "assigned": {
+                "squat": 10,
+                "pushup": 10,
+                "curl": 10,
+                "raise": 10
+            },
+            "completed": {
+                "squat": 0,
+                "pushup": 0,
+                "curl": 0,
+                "raise": 10
+            },
+            "custom_optimal": {
+                "squat": null,
+                "pushup": null,
+                "curl": null,
+                "raise": null
+            },
+            "messages": {
+                "from_therapist": [],
+                "from_patient": []
+            }
+        }
+    },
+    "exercises": {
+        "kumalala": {
+            "joints": {
+                "LEFT_ELBOW": [
+                    87.0,
+                    179.97
+                ],
+                "RIGHT_ELBOW": [
+                    114.22,
+                    179.87
+                ],
+                "LEFT_SHOULDER": [
+                    7.84,
+                    179.33
+                ],
+                "RIGHT_SHOULDER": [
+                    0.87,
+                    179.39
+                ],
+                "LEFT_KNEE": [
+                    22.74,
+                    179.93
+                ],
+                "RIGHT_KNEE": [
+                    80.61,
+                    179.97
+                ],
+                "LEFT_HIP": [
+                    21.59,
+                    179.93
+                ],
+                "RIGHT_HIP": [
+                    111.0,
+                    176.39
+                ]
+            },
+            "created": "2025-11-15T03:37:46.120687"
+        },
+        "shabalaba": {
+            "joints": {
+                "LEFT_ELBOW": [
+                    145.19,
+                    179.44
+                ],
+                "RIGHT_ELBOW": [
+                    149.54,
+                    174.41
+                ],
+                "LEFT_SHOULDER": [
+                    60.51,
+                    173.8
+                ],
+                "RIGHT_SHOULDER": [
+                    74.04,
+                    174.01
+                ],
+                "LEFT_KNEE": [
+                    168.1,
+                    179.93
+                ],
+                "RIGHT_KNEE": [
+                    172.04,
+                    180.0
+                ],
+                "LEFT_HIP": [
+                    172.01,
+                    179.98
+                ],
+                "RIGHT_HIP": [
+                    169.32,
+                    178.48
+                ]
+            },
+            "created": "2025-11-15T03:57:21.729947"
+        },
+        "kambu": {
+            "joints": {
+                "LEFT_ELBOW": [
+                    28.94,
+                    178.36
+                ],
+                "RIGHT_ELBOW": [
+                    44.75,
+                    179.63
+                ],
+                "LEFT_SHOULDER": [
+                    0.97,
+                    93.88
+                ],
+                "RIGHT_SHOULDER": [
+                    57.22,
+                    102.99
+                ],
+                "LEFT_KNEE": [
+                    169.14,
+                    180.0
+                ],
+                "RIGHT_KNEE": [
+                    164.18,
+                    179.98
+                ],
+                "LEFT_HIP": [
+                    165.52,
+                    179.93
+                ],
+                "RIGHT_HIP": [
+                    169.79,
+                    180.0
+                ]
+            },
+            "created": "2025-11-15T04:14:05.072704",
+            "default_sets": 5,
+            "optimal_range": {
+                "joint": "LEFT_ELBOW",
+                "min": 90.0,
+                "max": 180.0
+            }
+        },
+        "flex": {
+            "joints": {
+                "LEFT_ELBOW": [
+                    153.34,
+                    163.64
+                ],
+                "RIGHT_ELBOW": [
+                    42.51,
+                    173.39
+                ],
+                "LEFT_SHOULDER": [
+                    27.26,
+                    34.21
+                ],
+                "RIGHT_SHOULDER": [
+                    73.44,
+                    86.12
+                ],
+                "LEFT_KNEE": [
+                    176.8,
+                    179.91
+                ],
+                "RIGHT_KNEE": [
+                    176.97,
+                    179.85
+                ],
+                "LEFT_HIP": [
+                    170.44,
+                    176.13
+                ],
+                "RIGHT_HIP": [
+                    173.57,
+                    177.74
+                ]
+            },
+            "created": "2025-11-15T04:25:46.363738",
+            "default_sets": 10,
+            "optimal_range": {
+                "joint": "RIGHT_ELBOW",
+                "min": 30.0,
+                "max": 160.0
+            }
+        },
+        "neck": {
+            "joints": {
+                "LEFT_ELBOW": [
+                    81.78,
+                    170.08
+                ],
+                "RIGHT_ELBOW": [
+                    127.36,
+                    179.87
+                ],
+                "LEFT_SHOULDER": [
+                    24.78,
+                    34.62
+                ],
+                "RIGHT_SHOULDER": [
+                    25.63,
+                    36.22
+                ],
+                "LEFT_KNEE": [
+                    174.72,
+                    179.66
+                ],
+                "RIGHT_KNEE": [
+                    173.28,
+                    179.95
+                ],
+                "LEFT_HIP": [
+                    173.61,
+                    176.04
+                ],
+                "RIGHT_HIP": [
+                    168.75,
+                    176.37
+                ]
+            },
+            "created": "2025-11-15T04:41:12.838885",
+            "default_sets": 1
+        },
+        "shoul": {
+            "joints": {
+                "LEFT_ELBOW": [
+                    26.09,
+                    166.01
+                ],
+                "RIGHT_ELBOW": [
+                    72.41,
+                    178.26
+                ],
+                "LEFT_SHOULDER": [
+                    43.96,
+                    59.67
+                ],
+                "RIGHT_SHOULDER": [
+                    0.57,
+                    20.02
+                ],
+                "LEFT_KNEE": [
+                    32.63,
+                    179.67
+                ],
+                "RIGHT_KNEE": [
+                    153.05,
+                    179.11
+                ],
+                "LEFT_HIP": [
+                    47.56,
+                    173.8
+                ],
+                "RIGHT_HIP": [
+                    128.66,
+                    179.96
+                ]
+            },
+            "created": "2025-11-15T04:41:58.943216",
+            "default_sets": 1
+        },
+        "leftshoul": {
+            "joints": {
+                "LEFT_ELBOW": [
+                    108.44,
+                    179.47
+                ],
+                "RIGHT_ELBOW": [
+                    106.5,
+                    180.0
+                ],
+                "LEFT_SHOULDER": [
+                    14.5,
+                    47.18
+                ],
+                "RIGHT_SHOULDER": [
+                    0.03,
+                    32.12
+                ],
+                "LEFT_KNEE": [
+                    64.1,
+                    179.97
+                ],
+                "RIGHT_KNEE": [
+                    83.38,
+                    179.97
+                ],
+                "LEFT_HIP": [
+                    98.55,
+                    177.79
+                ],
+                "RIGHT_HIP": [
+                    155.46,
+                    176.26
+                ]
+            },
+            "created": "2025-11-15T04:58:26.556347",
+            "default_sets": 0
+        },
+        "left": {
+            "joints": {
+                "LEFT_ELBOW": [
+                    3.28,
+                    179.85
+                ],
+                "RIGHT_ELBOW": [
+                    109.34,
+                    179.99
+                ],
+                "LEFT_SHOULDER": [
+                    0.71,
+                    25.01
+                ],
+                "RIGHT_SHOULDER": [
+                    4.16,
+                    93.83
+                ],
+                "LEFT_KNEE": [
+                    166.22,
+                    179.98
+                ],
+                "RIGHT_KNEE": [
+                    169.98,
+                    179.96
+                ],
+                "LEFT_HIP": [
+                    174.73,
+                    179.98
+                ],
+                "RIGHT_HIP": [
+                    167.35,
+                    177.48
+                ]
+            },
+            "created": "2025-11-15T04:59:25.262231",
+            "default_sets": 1,
+            "optimal_range": {
+                "joint": "LEFT_ELBOW",
+                "min": 50.0,
+                "max": 140.0
+            }
+        }
+    }
+}
